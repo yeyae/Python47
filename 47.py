@@ -7,3 +7,6 @@ while True:
    if not line:break
    print(line)
    f.close()
+
+
+#이부분에 대해서는 다시 공부할 것
