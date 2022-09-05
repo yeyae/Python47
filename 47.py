@@ -9,4 +9,16 @@ while True:
    f.close()
 
 
-#이부분에 대해서는 다시 공부할 것
+#read 함수 사용하기
+f = open("C:/doit/새파일.txt",'r')
+data = f.read()
+print(data)
+f.close()
+
+#f.read() : 파일의 내용 전체를 문자열로 돌려줌
+
+
+#파일에 새로운 내용 추가하기
+with open("foo.txt", "w") as f:
+   f.write("Life is too short, you need python")
+  
